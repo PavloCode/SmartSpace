@@ -172,13 +172,12 @@
     
     .hero .container::after {
         content: '';
-        /* background-color: #BDCCFF; */
         background-color: #5796a7;
-        width: 100%;
+        width: 40%;
         height: 100%;
         position: absolute;
         top: 0;
-        left: 60%;
+        right: 0;
     }
     
     .hero .container .content {
@@ -876,8 +875,6 @@
         padding-bottom: 100px;
     }
     
-    .container {}
-    
     .testimonials-wrapp-title {
         max-width: 580px;
     }
@@ -905,11 +902,6 @@
         background-color: #FFFFFF;
         transition: box-shadow ease 0.5s;
         cursor: pointer;
-    }
-    
-    .testimonials-item:hover {
-        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
-        transform: rotate(-5deg);
     }
     
     .testimonials-list-icon {
@@ -990,6 +982,13 @@
         }
         .testimonials-wrapp-address {
             max-width: 100%;
+        }
+    }
+    
+    @media(min-width:991.98px) {
+        .testimonials-item:hover {
+            box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
+            transform: rotate(-5deg);
         }
     }
     /****************************************************** */
